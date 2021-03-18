@@ -13,8 +13,78 @@ body {
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 
-  /*
-   * CSS image reference example.
-   */
-  background-image: url('./images/bg-pattern.png');
+  background-image: url('https://www.nationsonline.org/maps/Physical-World-Map-3360.jpg');
+  /* background-image: url('https://img.wallpapersafari.com/desktop/1440/900/46/60/bkjBVG.jpg'); */
+  /* background-image: url('https://img.wallpapersafari.com/desktop/1280/1024/97/62/5NWaUk.png'); */
+  background-size: cover;
+}
+
+label {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: rgb(3, 3, 3);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+input {
+  display: block;
+  margin-top: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background-color: rgb(236, 231, 231);
+  width: 320px;
+  font-size: 30px;
+  text-align: center;
+}
+
+span,
+p,
+li {
+  font-weight: 700;
+}
+
+img {
+  display: block;
+  width: 320px;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.country-container {
+  width: 320px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px;
+  text-align: left;
+  align-items: center;
+  color: rgb(10, 10, 10);
+  font-size: 20px;
+  line-height: 1, 2;
+}
+
+.country-name {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.languages-wrapper {
+  padding-bottom: 20px;
+}
+
+.list-item {
+  width: 320px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  align-items: center;
+  font-weight: 700;
+  color: rgb(7, 7, 7);
+  text-decoration: none;
+  list-style-type: none;
 }
